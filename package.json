@@ -1,0 +1,14 @@
+{
+  "name": "rigroute-bridge-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "REST API for querying public bridge inventory data",
+  "main": "src/index.js",
+  "scripts": {"start": "node src/index.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0"
+  }
+}
